@@ -1,0 +1,1443 @@
+body{
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(243, 246, 247);
+    margin-right: 5px;
+}
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) 
+  {
+    .topnav a, .topnav input[type=text] 
+    {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] 
+    {
+      border: 1px solid #ccc;
+    }
+}
+.menu-bar{
+    background-color:rgb(242, 245, 244);
+    color: azure;
+    overflow: hidden;
+}
+.menu-bar ul {
+    list-style-type: none;
+    margin: 5px; 
+    padding: 3;
+    overflow: hidden;
+    transition: .9s;
+}
+.menu-bar li {
+    float: left;
+}
+.menu-bar li a {
+    display: block;
+    color: rgb(67, 47, 47);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration:solid;
+    transition: .9s;
+}
+.menu-bar li a:hover {
+    list-style: none;
+    color: rgb(27, 241, 38);
+    line-height: 20px;
+    line-break: auto;
+    border-radius: 50;
+}
+.container
+{
+    background: url(Brands-Best.png);
+    width: 100%;
+    padding-bottom: 23%;
+    padding-top: none;
+    height: 90px;
+    color: aliceblue;
+    font-size: xx-large;
+}
+.container h1
+{
+    padding-left: 250px;
+    padding-top: 130px;
+}
+.container a
+{
+    padding-left: 480px;
+    color: aliceblue;
+}
+.container a:hover
+{
+    color: rgb(200, 252, 240);
+}
+.text-container
+{
+    padding-left: 250px;
+}
+.text-container a
+{
+    color: rgb(65, 229, 87);
+}
+.text-container a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.Container-A
+{
+    padding-left: 250px;  
+}
+.containerB
+{
+    padding-left: 250px;    
+}
+.containerB a
+{
+    color: rgb(65, 229, 87);
+}
+.containerB a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.F-image img
+{
+    width: 70%;
+    padding-left: none;
+}
+.sub-ContainerB
+{
+    padding-top: 40px;
+}
+.containerB img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;  
+}
+
+.containerC
+{
+    padding-left: 250px;    
+}
+.containerC a
+{
+     color: rgb(65, 229, 87);
+}
+.containerC a:hover
+{
+    color: rgba(70, 244, 145, 0.817);   
+}
+.containerC img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerE
+{
+    padding-left: 250px;     
+}
+.containerE a
+{
+    color: rgb(65, 229, 87);   
+}
+.containerE a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerE img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;    
+}
+.containerF
+{
+    padding-left: 250px;  
+}
+.containerF a
+{
+    color: rgb(65, 229, 87); 
+}
+.containerF a:hover
+{
+    color: rgba(70, 244, 145, 0.817);    
+}
+.containerF img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;    
+}
+.containerG
+{
+    padding-left: 250px;    
+}
+.containerG a
+{
+    color: rgb(65, 229, 87);  
+}
+.containerG a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerG img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerH
+{
+    padding-left: 250px;  
+}
+.containerH a
+{
+    color: rgb(65, 229, 87);   
+}
+.containerH a:hover
+{
+    color: rgba(70, 244, 145, 0.817);   
+}
+.containerH img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px; 
+}
+.containerI
+{
+    padding-left: 250px;  
+}
+.containerI a
+{
+    color: rgb(65, 229, 87);  
+}
+.containerI a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerI img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerJ
+{
+    padding-left: 250px; 
+}
+.containerJ a
+{
+    color: rgb(65, 229, 87);  
+}
+.containerJ a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerJ img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerK
+{
+    padding-left: 250px; 
+}
+.containerK a
+{
+    color: rgb(65, 229, 87);  
+}
+.containerK a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerK img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerL
+{
+    padding-left: 250px; 
+}
+.containerL a
+{
+    color: rgb(65, 229, 87);  
+}
+.containerL a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerL img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerM
+{
+    padding-left: 250px; 
+}
+.containerM a
+{
+    color: rgb(65, 229, 87);  
+}
+.containerM a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerM img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerN
+{
+    padding-left: 250px; 
+}
+.containerN a
+{
+    color: rgb(65, 229, 87);  
+}
+.containerN a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerN img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerO
+{
+    padding-left: 250px; 
+}
+.containerO a
+{
+    color: rgb(65, 229, 87);  
+}
+.containerO a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerO img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerP
+{
+    padding-left: 250px; 
+}
+.containerP a
+{
+    color: rgb(65, 229, 87);  
+}
+.containerP a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerP img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerR
+{
+    padding-left: 250px; 
+}
+.containerR a
+{
+    color: rgb(65, 229, 87);  
+}
+.containerR a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerR img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerS
+{
+    padding-left: 250px; 
+}
+.containerS a
+{
+    color: rgb(65, 229, 87);  
+}
+.containerS a:hover
+{
+    color: rgba(70, 244, 145, 0.817);  
+}
+.containerS img
+{
+    width: 70%;
+    padding-left: none;
+    padding-top: 40px;   
+}
+.containerAa
+{
+    display: flex;
+    padding: 30px;
+}
+.card
+{
+    width: 50%;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+.card a
+{
+    text-decoration:none;
+}
+.card a h2
+{
+    color: black;
+    
+}
+.card a h2:hover
+{
+    color: rgb(21, 210, 77);
+    transition: .8s;
+}
+.card img
+{
+    width: 100%;
+}
+.gowell
+{
+    width: 40%; 
+    padding-left: 1rem;
+}
+ .gowell a
+ {
+    text-decoration: none;
+ }
+ .gowell a h2
+ {
+    color: black;
+ }
+ .gowell a h2:hover
+ {
+    color: rgb(21, 210, 77);
+    transition: .8s;
+ }
+
+.gowell img
+{
+    width: 120%;
+    height: 85%;
+}
+.containerBb
+{
+    display: flex;
+    padding: 20px;
+}
+.person
+{
+    width: 70%;
+    padding-right: 1rem;
+}
+.person a
+{
+text-decoration: none;
+}
+.person a h2
+{
+    color: black;   
+}
+.person a h2:hover
+{
+    color: rgb(21, 210, 77);
+    transition: .8s;  
+}
+.person img
+{
+    width: 100%;
+}
+.talkSafari
+{
+    width: 70%; 
+    padding-right: 1rem; 
+}
+.talkSafari a
+{
+text-decoration: none;
+}
+.talkSafari a h2
+{
+    color: black;     
+}
+.talkSafari a h2:hover
+{
+    color: rgb(21, 210, 77);
+    transition: .8s;     
+}
+.talkSafari img
+{
+    width: 100%;
+}
+.Laundry
+{
+    width: 70%;    
+}
+.Laundry a
+{
+    text-decoration: none;
+}
+.Laundry a h2
+{
+    color: black;    
+}
+.Laundry a h2:hover
+{
+    color: rgb(21, 210, 77);
+    transition: .8s;  
+}
+.Laundry img
+{
+    width: 100%;
+    height: 74%;
+}
+
+.containerCcc
+{
+    display: flex;
+    padding: 60px;
+
+}
+.house
+{
+    width: 100%;
+}
+.house a
+{
+text-decoration: none;
+}
+.house a h2
+{
+    color: black;
+}
+.house a h2:hover
+{
+    color: rgb(21, 210, 77);
+    transition: .8s;  
+}
+.house img
+{
+    width: 100%;
+    height: 74%;  
+}
+.car
+{
+    width: 100%;
+    padding-left: 1rem;  
+}
+.car a
+{
+text-decoration: none;
+}
+.car a h2
+{
+    color: black; 
+}
+.car a h2:hover
+{
+    color: rgb(21, 210, 77);
+    transition: .8s; 
+}
+.car img
+{
+    width: 100%;
+    height: 100%; 
+    padding-top: 2px;  
+}
+.containerDd
+{
+    display: flex;
+    padding: 20px;
+}
+.African 
+{
+    width: 70%;
+    padding-right: 1rem;
+}
+.African a
+{
+    text-decoration: none;
+}     
+.African a h2
+{
+    color: black;   
+}
+.African a h2:hover
+{
+    color: rgb(21, 210, 77);
+    transition: .8s;  
+}
+.African img
+{
+    width: 100%;
+}
+
+.SafaChair
+{
+    width: 70%; 
+    padding-right: 1rem; 
+}
+.SafaChair a
+{
+text-decoration: none;
+}
+.SafaChair a h2
+{
+    color: black;     
+}
+.SafaChair a h2:hover
+{
+    color: rgb(21, 210, 77);
+    transition: .8s;     
+}
+.SafaChair img
+{
+    width: 100%;
+    height: 77%;
+}
+
+.maako
+{
+    width: 70%;    
+}
+.maako a
+{
+    text-decoration: none;
+}
+.maako a h2
+{
+    color: black;    
+}
+.maako a h2:hover
+{
+    color: rgb(21, 210, 77);
+    transition: .8s;  
+}
+.maako img
+{
+    width: 100%;
+    height: 77%;
+}
+.containerEE
+{
+    display: flex;
+    padding: 70px;
+    background: rgb(32, 26, 26);
+    color: white;
+}
+.containerEE a
+{
+    color: white;
+}
+.containerEE a:hover
+{
+color: rgb(51, 205, 66);
+transition: .8s;
+}
+.Office
+{
+    width: 60%;
+}
+.Links
+{
+    width: 60%;  
+    padding-left: 20px; 
+}
+.Contact
+{
+    width: 60%;   
+}
+.Work
+{
+    width: 60%;   
+}
+.containerFF
+{
+    background: rgb(32, 26, 26);
+    padding-bottom: none;  
+}
+.containerA1
+{
+    display: flex;
+    padding: 20px;
+}
+.containerA1 a h2:hover
+{
+    color:rgb(64, 184, 76) ;
+    transition: .8s;
+}
+.partA
+{
+    width: 100%;
+}
+.partA a
+{
+    text-decoration: none;
+    color: black;
+}
+.line1
+{
+    display: flex;
+}
+.Top-Five1
+{
+    width:50%;
+}
+.Top-Five1 a
+{
+    text-decoration: none;
+}
+.Top-Five1 a img
+{
+    width: 200%;
+    height: 77%;
+    
+}
+.Top-Five1 a h2
+{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+.Impact
+{
+    width: 50%;
+    height: 85%;
+}
+.Impact a img
+{
+    width: 90%;
+    height: 90%; 
+    padding-left:210px;
+}
+.Impact a h2
+{
+    padding-left: 210px;  
+}
+.line2
+{
+    display: flex;
+    padding: 2px;
+padding-top: 30px;  
+}
+.Rebranding3 a h2
+{
+    padding-top: none;
+}
+.Rebranding3
+{
+    width: 50%;
+    height: 85%;
+    padding-bottom:  20px;
+}
+.Rebranding3 a img
+{
+    width: 120%;
+    margin-bottom: 30px;
+    padding-top: 65px; 
+    
+}
+.Marketing4 a h2
+{
+  padding-top: 30px;
+  padding-left: 6rem; 
+}
+.Marketing4 a img
+{
+    width: 40%;
+    height: 52%; 
+    padding-left:90px;
+    padding-right: none;
+    padding-top: 60px;  
+}
+.line3
+{
+    display: flex;
+    padding: 2px;
+    padding-top: 30px;  
+}
+.Expanding5 a img
+{
+    width: 78%;
+    margin-bottom: 30px;
+    padding-top: 4px;
+    height: 60%;   
+}
+
+.Interactive6 a img
+{
+    width: 80%;
+    height: 60%;
+}
+.line4
+{
+    display: flex;
+    padding: 4px; 
+}
+.Art7
+{
+    width: 50%;
+}
+.Art7 a img
+{
+    width: 70%;
+    height: 77%;
+    padding-top: 10px;
+}
+.Important8
+{
+ width: 50%;   
+}
+.Important8 a img
+{
+    width: 70%;
+    height: 77%;
+    padding-top: 10px;  
+    padding-right: 90px;  
+}
+.line5
+{
+    display: flex;
+    padding: 4px; 
+}
+.Statisticst9 a img
+{
+    width: 75%;
+    height: 70%;
+    padding-top: 130px;
+    padding-right: 20px;     
+}
+.Benefits10 a img
+{
+    width: 75%;
+    height: 70%;
+    padding-top: 130px; 
+    padding-right: 20px;  
+}
+.line
+{
+display: flex;
+margin-bottom: 2px;
+}
+
+
+
+.part2
+{
+    width: 100%;
+    padding-left: 50px;
+}
+.Bcontainer3 img
+{
+    width: 100%;
+    height: 40%;
+    
+    margin-top: 20px;  
+}
+.Bcontainer3 a img
+{
+    display: flex;
+    width: 200%;
+    height: 40%;
+    padding-top: 10px;
+}
+
+.Bcontainer4b
+{
+    display: flex;
+    width: 200px;
+}
+.Bcontainer5
+{
+    display: flex;
+}
+.Bcontainer6
+{
+    display: flex;
+}
+.Bcontainer8
+{
+    display: flex;
+}
+.Bcontainer9
+{
+    display: flex;
+}
+.Bcontainer10
+{
+    display: flex;
+}
+.Bcontainer11
+{
+    display: flex;
+}
+.Bcontainer12
+{
+    display: flex;
+}
+.Bcontainer14
+{
+    display: flex;
+}
+.part2 h2
+{
+    text-decoration: none;
+    text-underline-offset: none;
+    padding-left: 140px;  
+}
+
+.divA a img
+{
+    width: 100%;
+    height: 40%;
+    margin-bottom:.5px; 
+    padding-top: 10px; 
+   
+}
+.divB a
+{
+    text-decoration: none;
+}
+.divB a h3
+{
+    padding-left: 5px;
+    color: black;
+}
+.divB a h3:hover
+{
+    color: rgb(64, 184, 76);
+    transition: .8s;
+}
+
+
+
+.Bcontainer2
+{
+    display: flex;
+}
+.Bcontainer2 a img
+{
+    width: 100%;
+    height: 100%; 
+    padding-right:1rem; 
+}
+.Bcontainer3
+{
+    display: flex;
+}
+.Bcontainer3 a img
+{
+    width: 60%;
+    height: 10%;     
+}
+.Bcontainer4 a img
+{
+    width: 60%;
+    height: 10%;      
+}
+.Bcontainer5 a img
+{
+    width: 10%;
+    height: 7%;   
+}
+.Bcontainer6
+{
+    display: flex;
+}
+.Bcontainer6 a img
+{
+    width: 70%;
+    height: 90%;   
+}
+.Bcontainer7 a img
+{
+    width: 60%;
+    height: 10%;  
+}
+.Bcontainer8 a img
+{
+    width: 90%;
+    height: 70%;  
+}
+.Bcontainer9 a img
+{
+    width: 30%;
+    height: 10%;   
+}
+.Bcontainer10 a img
+{
+    width: 30%;
+    height: 10%;  
+}
+.Bcontainer11 a img
+{
+    width: 90%;
+    height: 100%;    
+}
+
+.Bcontainer12 a img
+{
+    width: 90%;
+    height: 110%;
+    
+}
+.Bcontaine13 a img
+{
+    width: 90%;
+    height: 110%;  
+}
+.Bcontainer14 a img
+{
+    width: 90%;
+    height: 110%; 
+    padding-top: 3px; 
+}
+
+
+.Bcontainer3a
+{
+    display: contents;
+}
+.Bcontainer3a a img
+{
+  
+  padding-top: 20px; 
+  width: 90px;
+  height: 70px;
+}
+.Bcontainer3a a h3
+{
+color: black;
+}
+.Bcontainer3a a h3:hover
+{
+ color:    rgb(64, 184, 76);
+}
+.Bcontainer3a
+{
+width: 10%;
+height: 20%;
+}
+.Bcontainer4b
+{
+    display: flex;   
+}
+
+.Bcontainer5c
+{
+    width: 70%;
+    height: 15%;
+}
+
+.container-D a
+{
+   text-decoration: none;
+   
+}
+.container-D a h3
+{
+    width: 200px;
+    color: black;
+}
+.container-D a h3:hover
+{
+    color: rgb(141, 182, 182);
+    transition: .8s;
+}
+.container-D
+{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.main-Container
+{
+    background-color: black;  
+    color: white;
+    list-style: none;
+}
+.main-Container a
+{
+color: white;
+text-decoration: none;
+list-style: none;
+}
+.container-E
+{   display: flex;
+    padding-top: 100px;
+    padding-left: 20px; 
+    padding-right: 30px;
+}
+
+.container-E  h3
+{
+    color: aliceblue;
+    text-decoration: none;
+    width: 100px;
+}
+.Quick-Links ul
+{
+    list-style: none;
+}
+.Quick-Links ul li a:hover
+{
+    color: green;
+    transition: .8s;
+}
+.Work-With-Us a h3:hover
+{
+    color: green;
+    transition: .8s;
+}
+.other
+{
+    display: flex;
+    align-items: center;
+}
+.container-F
+{
+    padding-left: 40%;
+}
+.container-F a i
+{
+    padding: 10px;
+}
+.container-F a i:hover
+{
+    color: rgba(61, 70, 60, 0.945);
+}
+.container-D
+{
+    width: 100%;
+    size: 50rem;
+}
+.container-D a img
+{
+    border-radius: 50%;
+    padding: 2px;
+}
+.img1
+{
+    
+    align-items: center;
+    width: 20%;
+    padding-left: 10%;
+}
+.img2
+{
+   
+    align-items: center;
+    width: 20%;
+    padding-left: 10%;
+}
+.img3
+{
+   
+    align-items: center;
+    width:20%;
+    padding-left: 10%;
+}
+.img4
+{
+    
+    align-items: center;
+    width:20%;
+    padding-left: 10%;
+    V
+}
+.aaaa
+{
+    width: fit-content;
+    background-color: #fbf0f0;
+}
+.ipica1
+{
+width: 5%;
+padding: none;
+}
+about
+
+.container.A
+{
+    background: url(full.jpg);
+    width: 100%;
+
+}
+.container.A
+{
+    padding-left: 250px;
+    padding-top: 130px;
+}
+.container.A
+{
+    padding-left: 480px;
+    color: aliceblue;
+
+}
+/*.Meet
+{
+    display: flex;   
+}
+/*.Meet img
+{
+    
+width: 250px;
+height: 200px;
+padding-top: 150px;
+}*/
+.Meet h2
+{
+padding-left: 8%;
+}
+.Meet h3
+{
+    padding-left: 8%;
+}
+.about h2
+{
+padding-left: 60px;
+}
+.about img
+{
+    height: 80%;
+    width: 120%;
+}
+.Journey h2
+{
+padding-right: 60px;
+}
+.joel 
+{
+    display: flex;
+}
+.pict1 img
+{
+  height: 350px;
+  width: 350px;
+  padding-left: 40px;
+}
+.pict2 img
+{
+  height: 350px;
+  width: 350px;
+  padding-left: 40px;
+}
+.pict3 img
+{
+  height: 350px;
+  width: 350px;
+  padding-left: 40px;
+}
+.pict1 h4
+{
+    padding-left: 100px;
+}
+.pict2 h4
+{
+    padding-left: 100px;
+}
+.pict3 h4
+{
+    padding-left: 100px;
+}
+.pict1 h3
+{
+    padding-left: 100px;
+      
+}
+.pict2 h3
+{
+    padding-left: 100px; 
+     
+}
+.pict3 h3
+{
+    padding-left: 100px;
+      
+}
+.luck
+{
+    display: flex;
+    background-color: rgb(230, 221, 232);
+    padding-top: 5rem;
+}
+.Lachel img
+{
+    
+    padding-top: 60px;
+    padding-left: 10rem;
+    border-radius: 50%;
+    padding: 2px;
+}
+    .luck h4
+    {
+        padding-left: 20rem;
+    }
+
+    .find h1
+    {
+       padding-left: 10rem; 
+    }
+    .find h4
+    {
+        padding-left: 10rem; 
+    }
+    .find a
+    {
+      text-decoration: none;  
+    }
+    .find a h3:hover
+    {
+    color: azure;
+    background-color: black;
+     width: 10%;
+     height: 20px;
+    }
+    .ddress h2
+    {
+        background-color: aquamarine; 
+        padding-left: 15rem;
+    }
+    
+    .containerCii
+    {
+        display: flex;
+        padding-left: 10rem;
+    }
+    .containerDii img
+    {
+       padding-left: 5rem;
+    }
+    .containerDii
+    {
+        display: flex; 
+        padding-left: 10rem;
+    } 
+    
+    .brand h4
+    {
+    padding-bottom: 10px;
+    }
+    .bland a h2
+    {
+        padding-left: 10rem;
+    }
+    .brand img
+    {
+     padding-right: 5rem;
+    }
+    .Guidelines h4
+    {
+      padding-left: 8rem;
+    }
+    .Guidelines a h2:hover
+    {
+        color: aqua;
+        background-color: #2196F3;
+    }  
+    .Guidelines a h2
+    {
+     padding-left: 10tem;
+    }
+    .Guidelines h2
+    {
+     padding-left: 6rem;
+    }
+    .Guidelines img
+    {
+        padding-left: 10rem;
+        width: 225px;
+        height: 175px;
+    }
+    .Visual img
+    {
+        width: 200px;
+        height: 150px;
+        padding-top: 5rem;
+    }
+    .Employer img
+    {
+        padding-top: 5rem;
+    }
+    .your h2
+    {
+        padding-left: 50px;
+        color: rgb(73, 249, 141);
+    }
+    .your h3
+    {
+        padding-left: 50px;  
+    }
+    .brand h3
+    {
+        padding-left: 50px;
+    }
+    .brand a h2
+    {
+     padding-left: 20px;
+     text-decoration: none;
+    }
+    .brand a h2
+    {
+        text-decoration: none;
+    }
